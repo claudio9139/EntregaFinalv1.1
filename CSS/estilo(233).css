@@ -1,0 +1,411 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(1, 29, 25, 0.7);
+}
+
+header {
+    width: 960px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#datos p {
+    font-size: 14px;
+}
+
+#marca img {
+    width: 220px;
+    height: 70px;
+    float: left;
+}
+
+#botonera_principal {
+    width: 590px;
+    height: 40px;
+    float:right;
+    margin-top: 20px;
+}
+
+#botonera_principal ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+#botonera_principal ul li {
+    display: inline;
+}
+
+#botonera_principal ul li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #1bb65c;
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#botonera_principal ul li a:active {
+    color: rgb(252, 5, 5);
+}
+
+#botonera_principal ul li a:visited {
+    color: rgb(187, 50, 192);
+}
+
+#botonera_principal ul li a:link {
+    color: rgb(47, 17, 155);
+}
+
+#botonera_principal ul li a:hover {
+    color: rgb(196, 233, 31);
+}
+
+#contenido_principal {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#imagen1 {
+    width: 350px;
+    height: 300px;
+    float:left;
+    margin-top: 10px;
+    background-image: url(../img/PLC.jpg);
+    background-size: cover; 
+}
+
+#presentacion {
+    width: 600px;
+    height: 300px;  /*prueba*/
+    background-color: #69e79e;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#titulo_principal {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+#contenido_articulo {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#texto_contenido {
+    width: 250px;
+    height: 300px;
+    background-color: #56ce5c;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_segundo {
+    font-family: Helvetica;
+    font-size: 12px;
+}
+#imagen2 {
+    width: 440px;
+    height: 300px;
+    float:left; 
+    margin-bottom: 10px;
+    background-image: url(../img/TABLEROCAJAMOLDEADA.jpg);
+    background-size: cover; 
+}
+
+#destacado {
+    width: 250px;
+    height: 300px;
+    background-color: #68af6c;
+    float: right;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido_destacado{
+    font-family: Arial;
+    font-size: 24px;
+}
+
+#complementario{
+    width:960px;
+    height: 180px;
+    clear: both;
+}
+
+#imagen_aside1 {
+    width:468px;
+    height: 180px;
+    float: left;
+    margin-top: -20;
+}
+
+#imagen_aside2 {
+    width:468px;
+    height: 180px;
+    float: right;
+}
+
+footer {
+    width: 960px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#datos {
+    width:300px;
+    height: 180px;
+    float:left;
+    padding:20px;
+    box-sizing: border-box;
+}
+#redes {
+    width:350px;
+    height: 35px;
+    float:right;
+}
+
+
+/* A partir de acá empezamos el media query */
+
+@media all and (min-width:600px) and (max-width:1023px){
+
+    header {
+        width: 580px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #datos p {
+        font-size: 12px;
+    }
+    
+    #marca img {
+        width: 300px;
+        height: 70px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+  
+    #botonera_principal ul li a {
+        display: inline-block;
+        padding: 10px;
+        font-weight: bold;
+        text-decoration: none;
+    }   
+    
+    #contenido_principal {
+        width: 580px;
+        height: 800px;
+    }
+
+    #imagen1 {
+        width: 200px;
+        background-size: cover; 
+        background-position: center;
+    }
+    
+    #presentacion {
+        width: 370px;
+        height: 300px; /*?*/
+    }
+    
+    #titulo_principal {
+        font-size: 25px;
+    }
+    
+    #contenido_articulo {
+        font-size: 18px;
+    }
+    
+    #texto_contenido {
+        width: 285px;
+        height: 200px;
+    }
+    
+    #contenido_segundo {
+        font-size: 10px;
+    }
+
+    #imagen2 {
+        width: 285px;
+        height: 200px;
+        background-size: cover; 
+    }
+    
+    #destacado {
+        width: 580px; /*¿*/
+        height: 135px;
+    }
+    
+    #contenido_destacado{
+        font-size: 18px;
+    }
+    
+    #complementario{
+        width: 580px;
+        height: 130px;
+    }
+    
+    #imagen_aside {
+        width: 580px;
+        height: 130px;
+    }
+    
+    footer {
+        width: 580px;
+    }
+    
+    #datos {
+        width:250px;
+
+    }
+    #redes {
+        width:250px;
+    }
+}     /*fin de media de una tableta*/
+
+@media all and (max-width: 599px) {
+
+    header {
+        width: 90%;
+        height: auto;
+
+    }
+    #datos p {
+        font-size: 10px;
+    }
+    
+    #marca img {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    #botonera_principal {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 20px; /*?*/
+    }
+    
+    #botonera_principal ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: none;
+    }
+    
+    #botonera_principal ul li {
+        display: block;
+    }
+
+    #botonera_principal ul li a {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        text-decoration: none;
+        box-sizing: border-box;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+     
+    #contenido_principal {
+        width: 90%;
+        height: auto;
+    }
+
+    #imagen1 {
+        width: 100%;
+        height: 380px; 
+        float: none;
+        /*background-size: cover;*/
+    }
+    
+    #presentacion {
+        width: 100%;
+        height: auto; 
+        float: none;
+    }
+    
+   
+    #texto_contenido {
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-right: 0;
+    }
+    
+    #imagen2 {
+        width: 100%;
+        height: 300px;
+        float: none; 
+        margin-bottom: 10px;
+        background-position: center; 
+    }
+    
+    #destacado {
+        width: 100%;
+        height: auto;
+        float: none;
+
+    }
+    
+    #contenido_destacado{
+        font-size: 90%;
+    }
+    
+    #complementario{
+        display: none;
+    }
+    
+    
+    footer {
+        width: 90%;
+        height: auto;
+        float: none
+    }
+    
+    #datos {
+        width: 100%;
+        height: auto;
+        float: none;
+
+    }
+    #redes {
+        width: 100%;
+        height: 35px;
+        float: none;
+    }
+
+    
+}/*fin media movil*/
+
+#ul botonera_footer {
+    list-style-type: none;    
+    font-family:"Sofia Sans";
+    
+
+}
+

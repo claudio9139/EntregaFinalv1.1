@@ -1,0 +1,54 @@
+
+
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with External CSS</title>
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+<body>
+    <!--<form action="/submit" method="post"> -->
+
+   <!-- <form action="https://formspree.io/f/mblrvqzb" method="post">-->
+    <form action=https://formspree.io/f/xblrvvqy   method="post"> 
+    
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+<!--         <label for="password">Password:</label>
+             <input type="password" id="password" name="password" required> ->
+-->
+
+        <label for="comentarios">Escriba su consulta</label> <br>
+        <textarea name="comentarios" id="" cols="30" rows="15" placeholder="Escriba aquí su consulta (max 450 caracteres)"></textarea>
+        <br><br>
+
+        <!--<input type="submit" value="Enviar"> -->
+        <input type="submit" value="Enviar Datos">
+    </form>
+</body>
+</html>
+
+<!--### Explanation
+
+- **CSS File (`styles.css`)**:
+  - The `form` selector styles the form element with a background color, padding, border-radius, max-width, and margin.
+  - The `label` selector styles the label elements with block display, margin, and font-weight.
+  - The `input[type="text"], input[type="email"], ` selector styles the text and email input fields with width, padding, margin, border, and border-radius.
+  - The `input[type="submit"]` selector styles the submit button with background color, text color, padding, border, border-radius, and cursor.
+  - The `input[type="submit"]:hover` selector adds a hover effect to the submit button.
+
+- **HTML File**:
+  - The `<link>` tag in the `<head>` section links the external CSS file (`styles.css`) to the HTML document.
+  - The `<form>` element contains various input fields and a submit button, which are styled using the external CSS file.
+
+By following these steps, you can apply external CSS to your form and style it according to your preferences.
+
+  -->
